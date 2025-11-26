@@ -1695,7 +1695,242 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </footer>
 </div>
 `
-var arr = [cartona1, cartona2,cartona3,cartona4,cartona5,cartona6,cartona7];
+
+var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.9</span>
+        <span class="fw-lighter">(387 reviews)</span>
+    </span>
+
+    <img src="images/photo-1546069901-ba9599a7e63c.avif" alt=""
+        class="w-100 object-fit-cover rounded-start-5">
+
+    <div class="position-absolute bottom-10 bg-white rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">10 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">20 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">2 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Seafood</span>
+            <span class="badge bg-body-purple text-purple">Healthy</span>
+        </div>
+
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">Grilled Salmon with Lemon Butter</h3>
+                <p>Perfectly grilled salmon fillet with a zesty lemon butter sauce and fresh herbs.</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2">
+                    <i class="fa-solid fa-bookmark text-orange"></i>
+                </button>
+                <button class="bg-primar-orange btn p-2 rounded-2">
+                    <i class="fa-solid fa-share-nodes text-orange"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="alert alert-info bg-info-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-info">
+            <i class="fa-solid fa-circle-info text-info me-2"></i>
+            <div>
+                <p class="m-0 h5">Rich in Omega-3s</p>
+                <p class="text-info m-0">Salmon is packed with healthy omega-3 fatty acids for heart health!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV TABS (INGREDIENTS • INSTRUCTIONS • NUTRITION • CHEF TIPS) -->
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3"
+        id="myTab" role="tablist">
+
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#meal8-ing"> 
+                <i class="fa-solid fa-list-check"></i> Ingredients
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#meal8-ins">
+                <i class="fa-solid fa-book-open"></i> Instructions
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#meal8-nut">
+                <i class="fa-solid fa-chart-pie"></i> Nutrition
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#meal8-chef">
+                <i class="fa-solid fa-lightbulb"></i> Chef's Tips
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content tabs">
+
+        <!-- INGREDIENTS -->
+        <div class="tab-pane fade show active bg-hero p-4 rounded-5 mt-4" id="meal8-ing">
+            <div class="d-flex flex-column flex-wrap">
+                <span class="mb-3"><span class="bg-orange px-2 rounded-circle text-white me-1">1</span> 2 salmon fillets (150g each)</span>
+                <span class="mb-3"><span class="bg-orange px-2 rounded-circle text-white me-1">2</span> 3 tablespoons butter</span>
+                <span class="mb-3"><span class="bg-orange px-2 rounded-circle text-white me-1">3</span> 2 lemons</span>
+                <span class="mb-3"><span class="bg-orange px-2 rounded-circle text-white me-1">4</span> Fresh dill and parsley</span>
+                <span class="mb-3"><span class="bg-orange px-2 rounded-circle text-white me-1">5</span> Sea salt & black pepper</span>
+                <span><span class="bg-orange px-2 rounded-circle text-white me-1">6</span> Garlic cloves (2)</span>
+            </div>
+        </div>
+
+        <!-- INSTRUCTIONS -->
+        <div class="tab-pane fade p-4 rounded-5 mt-4" id="meal8-ins">
+            <div class="d-flex flex-column flex-wrap font-18">
+                <span class="mb-4 d-flex">
+                    <span class="bg-orange px-3 py-2 rounded-3 text-white fw-bold me-2">1</span>
+                    <p>Preheat grill to medium-high heat. Pat salmon dry and season with salt and pepper.</p>
+                </span>
+                <span class="mb-4 d-flex">
+                    <span class="bg-orange px-3 py-2 rounded-3 text-white fw-bold me-2">2</span>
+                    <p>Grill salmon skin-side up for 6-8 minutes, then flip and grill for 4-5 minutes.</p>
+                </span>
+                <span class="mb-4 d-flex">
+                    <span class="bg-orange px-3 py-2 rounded-3 text-white fw-bold me-2">3</span>
+                    <p>In a pan, melt butter with minced garlic and squeeze of fresh lemon juice.</p>
+                </span>
+                <span class="mb-4 d-flex">
+                    <span class="bg-orange px-3 py-2 rounded-3 text-white fw-bold me-2">4</span>
+                    <p>Add fresh dill and parsley to the lemon butter sauce.</p>
+                </span>
+                <span class="d-flex">
+                    <span class="bg-orange px-3 py-2 rounded-3 text-white fw-bold me-2">5</span>
+                    <p>Drizzle sauce over grilled salmon and serve with lemon wedges.</p>
+                </span>
+            </div>
+        </div>
+
+        <!-- NUTRITION -->
+        <div class="tab-pane fade p-4 mt-4" id="meal8-nut">
+            <div class="row h-100">
+                <div class="col-6 d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
+                                <i class="fa-solid fa-fire text-orange"></i>
+                            </div>
+                            <p class="font-18">Calories</p>
+                        </div>
+                        <p class="fw-bold font-18">380 Kcal</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-yellow rounded-3 me-2">
+                                <i class="fa-solid fa-wheat-awn text-warning"></i>
+                            </div>
+                            <p class="font-18">Carbs</p>
+                        </div>
+                        <p class="fw-bold font-18">2g</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-body-green rounded-3 me-2">
+                                <i class="fa-solid fa-seedling text-success"></i>
+                            </div>
+                            <p class="font-18">Fiber</p>
+                        </div>
+                        <p class="fw-bold font-18">0g</p>
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
+                                <i class="fa-solid fa-dumbbell text-blue"></i>
+                            </div>
+                            <p class="font-18">Protein</p>
+                        </div>
+                        <p class="fw-bold font-18">42g</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-red rounded-3 me-2">
+                                <i class="fa-solid fa-droplet text-danger"></i>
+                            </div>
+                            <p class="font-18">Fat</p>
+                        </div>
+                        <p class="fw-bold font-18">19g</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="p-2 px-3 bg-pink rounded-3 me-2">
+                                <i class="fa-solid fa-cube text-pink"></i>
+                            </div>
+                            <p class="font-18">Sodium</p>
+                        </div>
+                        <p class="fw-bold font-18">350mg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHEF TIPS -->
+        <div class="tab-pane fade p-4 mt-4" id="meal8-chef">
+            <div class="d-flex flex-column gap-1">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i>
+                    Don't overcook salmon - it should be moist and tender inside.
+                </div>
+
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i>
+                    Use fresh lemon juice for the best citrus flavor.
+                </div>
+
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i>
+                    Grilling skin-side up first helps protect the delicate flesh.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i>
+            Try Another Recipe
+        </button>
+    </footer>
+</div>
+`;
+
+var arr = [cartona1, cartona2,cartona3,cartona4,cartona5,cartona6,cartona7,cartona8];
 
 
 
