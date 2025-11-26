@@ -1,0 +1,143 @@
+body {
+    font-size: 21px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.bg-orange {
+
+    background-color: oklch(63.7% .237 25.331);
+}
+
+.bg-primar-orange {
+    background-color: oklch(95.4% .038 75.164);
+}
+
+.border-orange {
+    border: solid 2px oklch(63.7% .237 25.331);
+}
+
+a.hover-orange:hover {
+    color: oklch(63.7% .237 25.331) !important;
+}
+
+.bg-hero {
+    background-color: oklch(0.99 0.02 95.84);
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.badge {
+    top: 3%;
+    left: 8%;
+}
+
+.text-orange {
+    color: oklch(63.7% .237 25.331);
+}
+
+.bottom-10 {
+    bottom: 3%;
+}
+
+.bg-body-green {
+    background-color: oklch(96.2% .044 156.743);
+}
+
+.text-green {
+    color: oklch(52.7% .154 150.069);
+}
+
+.bg-body-blue {
+    background-color: oklch(93.2% .032 255.585);
+}
+
+.text-blue {
+    color: oklch(48.8% .243 264.376);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.badges {
+    font-size: 18px;
+}
+
+.border-start-danger {
+    border-left: 4px solid red;
+}
+
+.text-red {
+    color: oklch(57.7% .245 27.325);
+}
+
+.bg-red {
+    background-color: oklch(97.1% .013 17.38);
+}
+
+.bg-pink {
+    background-color: oklch(94.8% .028 342.258);
+}
+
+.text-pink {
+    color: oklch(59.2% .249 .584);
+}
+
+.nav {
+    --bs-nav-link-color: gray;
+    --bs-nav-link-hover-color: black;
+
+}
+
+.nav-underline {
+    --bs-nav-underline-link-active-color: oklch(63.7% .237 25.331);
+}
+
+section {
+    min-height: 100vh;
+}
+
+.scroll {
+    scrollbar-arrow-color: oklch(63.7% .237 25.331);
+    scrollbar-color: oklch(63.7% .237 25.331);
+}
+
+.col-7 {
+    font-size: 16px !important;
+}
+
+.btn:hover {
+    background-color: oklch(56.962% 0.20911 24.987);
+}
+
+.tabs {
+    height: 350px !important;
+    overflow-y: auto;
+}
+
+.font-18 {
+    font-size: 18px !important;
+
+}
+
+.bg-yellow {
+    background-color: oklch(97.3% .071 103.193);
+}
+
+.border-start-warning{
+    border-left: 4px solid oklch(0.83 0.17 81.03);
+}
+
+.overflow-y-auto{
+    scrollbar-color: oklch(0.92 0.04 34.31) transparent;
+    scrollbar-width: thin;
+}
