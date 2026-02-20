@@ -132,7 +132,6 @@ section {
 
 .tabs {
     height: 350px !important;
-    overflow-y: auto;
 }
 
 .font-18 {
