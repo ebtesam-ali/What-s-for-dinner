@@ -296,7 +296,7 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
 
                     <footer class="border-top mt-5 pt-4">
 
-                        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+                        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
                             <i class="fa-solid fa-rotate"></i>
                             Try Another Recipe
                         </button>
@@ -544,7 +544,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -772,7 +772,7 @@ var cartona3 = `<!-- MEAL 2 -->
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i>
             Try Another Recipe
         </button>
@@ -1002,7 +1002,7 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i>
             Try Another Recipe
         </button>
@@ -1209,7 +1209,7 @@ var cartona5 = `<!-- MEAL 4 -->
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i>
             Try Another Recipe
         </button>
@@ -1455,7 +1455,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -1688,7 +1688,7 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i>
             Try Another Recipe
         </button>
@@ -1921,7 +1921,7 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </div>
 
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i>
             Try Another Recipe
         </button>
@@ -2029,7 +2029,7 @@ var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
         </div>
     </div>
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -2148,7 +2148,7 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
         </div>
     </div>
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -2268,7 +2268,7 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
         </div>
     </div>
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -2387,7 +2387,7 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
         </div>
     </div>
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
@@ -2507,7 +2507,7 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
         </div>
     </div>
     <footer class="border-top mt-5 pt-4">
-        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
             <i class="fa-solid fa-rotate"></i> Try Another Recipe
         </button>
     </footer>
