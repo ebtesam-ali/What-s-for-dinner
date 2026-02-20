@@ -1695,7 +1695,6 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </footer>
 </div>
 `
-
 var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
@@ -1929,8 +1928,598 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </footer>
 </div>
 `;
+var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
+<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.7</span>
+        <span class="fw-lighter">(298 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800" alt="Beef Stir-Fry"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">10 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">15 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">4 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Asian</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">Beef Stir-Fry</h3>
+                <p>Tender beef with colorful vegetables in a savory soy-ginger sauce.</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-success bg-success-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-success" role="alert">
+            <i class="fa-solid fa-circle-check text-success me-2"></i>
+            <div>
+                <p class="m-0 h5">High in Protein</p>
+                <p class="text-success m-0">Quick & nutrient-packed weeknight dinner.</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" href="#beef-ing"><i class="fa-solid fa-list-check"></i> Ingredients</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#beef-inst"><i class="fa-solid fa-book-open"></i> Instructions</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#beef-nut"><i class="fa-solid fa-chart-pie"></i> Nutrition</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#beef-tips"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="beef-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>300g beef strips</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>2 bell peppers</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>1 onion</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>3 tbsp soy sauce</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>2 garlic cloves</span>
+                    <span><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>1 tbsp ginger</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="beef-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>Slice vegetables and beef thinly.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>Heat oil, stir-fry beef until browned.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>Add veggies and garlic/ginger.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>Pour in soy sauce, stir 3-4 min. Serve hot.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="beef-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">420 Kcal</p></div>
+                        <!-- Add more as in your original -->
+                    </div>
+                    <!-- Right column similar -->
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="beef-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center"><i class="fa-solid fa-check-circle text-warning me-2"></i><p class="m-0">Slice beef against the grain for tenderness.</p></div>
+                <!-- Add 2-3 more tips -->
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>`;
+var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
+<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.8</span>
+        <span class="fw-lighter">(345 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="Chicken Fajitas"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">15 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">15 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">4 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Mexican</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">Chicken Fajitas</h3>
+                <p>Sizzling chicken strips with bell peppers and onions in warm tortillas</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-warning bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+            <i class="fa-solid fa-triangle-exclamation text-warning me-2"></i>
+            <div>
+                <p class="m-0 h5">Spicy Option</p>
+                <p class="text-warning m-0">Adjust chili powder to your preferred heat level</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#fajita-ing"><i class="fa-solid fa-list-check"></i> Ingredients</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#fajita-inst"><i class="fa-solid fa-book-open"></i> Instructions</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#fajita-nut"><i class="fa-solid fa-chart-pie"></i> Nutrition</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#fajita-tips"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="fajita-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>500g chicken breast, sliced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>3 bell peppers (mixed colors)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>1 large onion, sliced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>2 tbsp olive oil</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>1 tbsp fajita seasoning</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>8 flour tortillas</span>
+                    <span><span class="bg-orange px-2 rounded-circle me-1 text-white">7</span>Lime wedges, sour cream, salsa</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="fajita-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>Season chicken with fajita seasoning.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>Heat oil in large skillet, cook chicken 5-6 min until golden.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>Add peppers and onion, cook 4-5 min until tender-crisp.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>Serve in warm tortillas with lime, sour cream and salsa.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="fajita-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">480 Kcal</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">52g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">6g</p></div>
+                    </div>
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">38g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">16g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">920mg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="fajita-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Slice everything thinly for even cooking</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Warm tortillas in a dry pan or microwave for softness</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Serve immediately while sizzling for best texture</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>`;
+var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
+<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.7</span>
+        <span class="fw-lighter">(298 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="One-Pot Tomato Basil Pasta"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">5 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">15 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">4 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Italian</span>
+            <span class="badge bg-body-purple text-purple">One-Pot</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">One-Pot Tomato Basil Pasta</h3>
+                <p>Pasta cooked directly in a flavorful tomato-basil sauce – minimal cleanup!</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-success bg-success-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-success" role="alert">
+            <i class="fa-solid fa-circle-check text-success me-2"></i>
+            <div>
+                <p class="m-0 h5">Super Simple</p>
+                <p class="text-success m-0">Everything cooks in one pot – ready in 20 minutes</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#onepot-ing"><i class="fa-solid fa-list-check"></i> Ingredients</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#onepot-inst"><i class="fa-solid fa-book-open"></i> Instructions</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#onepot-nut"><i class="fa-solid fa-chart-pie"></i> Nutrition</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#onepot-tips"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="onepot-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>350g spaghetti</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>1 can (400g) diced tomatoes</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>4 cups vegetable broth</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>1 onion, thinly sliced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>4 garlic cloves, sliced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>Handful fresh basil</span>
+                    <span><span class="bg-orange px-2 rounded-circle me-1 text-white">7</span>Olive oil, salt, pepper, parmesan</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="onepot-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>Place all ingredients (except basil and cheese) in large pot.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>Bring to boil, then simmer 10–12 min, stirring often.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>Cook until pasta is al dente and sauce thickens.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>Stir in torn basil, top with parmesan and serve.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="onepot-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">420 Kcal</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">78g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">6g</p></div>
+                    </div>
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">14g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">8g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">890mg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="onepot-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Stir frequently to prevent sticking</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Add chili flakes for a spicy kick</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Finish with extra fresh basil for aroma</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>`;
+var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
+<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.9</span>
+        <span class="fw-lighter">(412 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800" alt="Baked Salmon with Asparagus"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">10 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">20 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">2 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Seafood</span>
+            <span class="badge bg-body-purple text-purple">Healthy</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">Baked Salmon with Asparagus</h3>
+                <p>Oven-baked salmon fillets with lemon-garlic asparagus – rich in omega-3</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-info bg-info-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-info" role="alert">
+            <i class="fa-solid fa-circle-info text-info me-2"></i>
+            <div>
+                <p class="m-0 h5">Heart-Healthy</p>
+                <p class="text-info m-0">Excellent source of omega-3 fatty acids</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#salmon-ing"><i class="fa-solid fa-list-check"></i> Ingredients</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#salmon-inst"><i class="fa-solid fa-book-open"></i> Instructions</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#salmon-nut"><i class="fa-solid fa-chart-pie"></i> Nutrition</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#salmon-tips"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="salmon-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>2 salmon fillets (150g each)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>400g asparagus, trimmed</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>2 tbsp olive oil</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>2 garlic cloves, minced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>1 lemon (juice + slices)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>Salt, pepper, fresh dill</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="salmon-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>Preheat oven to 200°C (400°F).</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>Place salmon and asparagus on baking sheet.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>Drizzle with oil, garlic, lemon juice, salt & pepper.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>Bake 15–20 min until salmon flakes easily. Garnish with dill.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="salmon-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">380 Kcal</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">8g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">4g</p></div>
+                    </div>
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">36g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">22g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">320mg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="salmon-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Don't overcook – salmon should be slightly translucent in center</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Use parchment paper for easy cleanup</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Fresh dill and lemon zest elevate flavor</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>`;
+var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
+<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.7</span>
+        <span class="fw-lighter">(267 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800" alt="Quinoa Black Bean Bowl"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">10 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">15 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">2 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Easy</span>
+            <span class="badge bg-body-blue text-blue">Healthy</span>
+            <span class="badge bg-body-purple text-purple">Vegan</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h3 class="fw-bold h2">Quinoa & Black Bean Bowl</h3>
+                <p>Protein-packed quinoa with black beans, avocado, corn and lime dressing</p>
+            </div>
+            <div>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-success bg-success-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-success" role="alert">
+            <i class="fa-solid fa-circle-check text-success me-2"></i>
+            <div>
+                <p class="m-0 h5">Plant-Based Protein</p>
+                <p class="text-success m-0">High in fiber and complete protein</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#quinoa-ing"><i class="fa-solid fa-list-check"></i> Ingredients</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#quinoa-inst"><i class="fa-solid fa-book-open"></i> Instructions</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#quinoa-nut"><i class="fa-solid fa-chart-pie"></i> Nutrition</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#quinoa-tips"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="quinoa-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>150g quinoa (dry)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>1 can black beans, rinsed</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>1 avocado, diced</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>1 cup corn kernels</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>1 lime (juice)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>Olive oil, cumin, chili powder</span>
+                    <span><span class="bg-orange px-2 rounded-circle me-1 text-white">7</span>Fresh cilantro</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="quinoa-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>Cook quinoa according to package (usually 15 min).</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>Mix black beans, corn, avocado in bowl.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>Whisk lime juice, oil, spices for dressing.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>Combine everything, top with cilantro.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="quinoa-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">460 Kcal</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">68g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">15g</p></div>
+                    </div>
+                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">16g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">18g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">420mg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="quinoa-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Rinse quinoa well to remove bitterness</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Add diced tomato or red onion for extra freshness</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Dressing can be made ahead – keeps 3 days</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-orange btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>`;
 
-var arr = [cartona1, cartona2,cartona3,cartona4,cartona5,cartona6,cartona7,cartona8];
+
+var arr = [
+    cartona1, cartona2, cartona3, cartona4, cartona5,
+    cartona6, cartona7, cartona8, cartona9, cartona10,
+    cartona11, cartona12, cartona13
+];
+
 
 
 
