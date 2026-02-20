@@ -6,6 +6,14 @@ p {
     font-size: 16px;
 }
 
+.bg-gradiant {
+    background-image: linear-gradient(to bottom right in oklab,#ff6900,#fb2c36);
+}
+
+.text-gray {
+    color: #101828;
+}
+
 .bg-orange {
 
     background-color: oklch(63.7% .237 25.331);
@@ -19,6 +27,9 @@ p {
     border: solid 2px oklch(63.7% .237 25.331);
 }
 
+a {
+    text-decoration: none;
+}
 a.hover-orange:hover {
     color: oklch(63.7% .237 25.331) !important;
 }
@@ -140,4 +151,14 @@ section {
 .overflow-y-auto{
     scrollbar-color: oklch(0.92 0.04 34.31) transparent;
     scrollbar-width: thin;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}
+
+.container {
+    max-width: 100% !important;
 }
