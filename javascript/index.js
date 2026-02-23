@@ -2518,7 +2518,7 @@ var cartona14 = `
         <span class="fw-bold">4.9</span>
         <span class="fw-lighter">(528 reviews)</span>
     </span>
-    <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800" alt="محشي - Stuffed Vegetables"
+    <img src="https://www.simplyleb.com/wp-content/uploads/Grape-Leaves-13.jpg" alt="محشي - Stuffed Vegetables"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
         <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
