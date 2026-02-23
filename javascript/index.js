@@ -1,5 +1,5 @@
 
-var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex justify-content-center">
+var cartona1 = `<div class="col-lg-5  rounded-start-5 position-relative d-flex justify-content-center">
                     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
                         <i class="fa-solid fa-star text-warning"></i>
                         <span class="fw-bold">4.7</span>
@@ -8,7 +8,7 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                     <img src="images/photo-1529692236671-f1f6cf9683ba.avif" alt=""
                         class="w-100  object-fit-cover rounded-start-5">
                     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-                        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+                        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
                             <div>
                                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                                 <p class="fw-lighter m-0">Prep Time</p>
@@ -27,18 +27,18 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                         </div>
                     </div>
                 </div>
-                <div class="col-7 overflow-y-auto scroll vh-100  rounded-end-5 p-4">
+                <div class="col-lg-7 overflow-y-auto scroll vh-100  rounded-end-5 p-4">
                     <div class="title">
                         <div class="badges mb-3">
                             <span class="badge bg-body-green text-green">Intermediate</span>
                             <span class="badge bg-body-blue text-blue">Asian</span>
                         </div>
-                        <div class="d-flex justify-content-between mb-3">
-                            <div>
+                        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                            <div class="order-lg-0 order-1">
                                 <h3 class="fw-bold h2">French Onion Soup</h3>
                                 <p>Rich beef broth with caramelized onions and melted cheese</p>
                             </div>
-                            <div>
+                            <div class="order-0 align-self-lg-auto align-self-end">
                                 <button class="bg-primar-orange btn p-2 rounded-2"> <i
                                         class="fa-solid fa-bookmark text-orange"></i> </button>
                                 <button class="bg-primar-orange btn p-2 rounded-2"> <i
@@ -121,14 +121,11 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                                             <span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>
                                             2 bay leaves
                                         </span>
-                                        <span class="mb-3">
+                                        <span class="">
                                             <span class="bg-orange px-2 rounded-circle me-1 text-white">7</span>
                                             Baguette slices
                                         </span>
-                                        <span class="">
-                                            <span class="bg-orange px-2 rounded-circle me-1 text-white">8</span> 200g
-                                            Gruyère cheese, grated
-                                        </span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +180,7 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                                 aria-labelledby="contact-tab" tabindex="0">
                                 <div class="p-4 mt-4 tabs">
                                     <div class="row h-100 fa-gitter">
-                                        <div class="col-6 h-75 d-flex flex-column justify-content-between ">
+                                        <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between ">
                                             <div class="d-flex justify-content-between align-items-baseline">
                                                 <div class="d-flex">
                                                     <div
@@ -221,7 +218,7 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 h-75 d-flex flex-column justify-content-between ">
+                                        <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between ">
                                             <div class="d-flex justify-content-between align-items-baseline">
                                                 <div class="d-flex">
                                                     <div
@@ -261,28 +258,28 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
                             <div class="tab-pane fade" id="chef-tab-pane" role="tabpanel" aria-labelledby="chef-tab"
                                 tabindex="0">
                                 <div class="d-flex flex-column gap-1 p-4 tabs">
-                                    <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
+                                    <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
                                         role="alert">
                                         <i class="fa-solid fa-check-circle text-warning me-2"></i>
                                         <div>
                                             <p class=" m-0">Adjust spice level by using more or less curry paste</p>
                                         </div>
                                     </div>
-                                    <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
+                                    <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
                                         role="alert">
                                         <i class="fa-solid fa-check-circle text-warning me-2"></i>
                                         <div>
                                             <p class=" m-0">Add vegetables in stages based on cooking time needed</p>
                                         </div>
                                     </div>
-                                    <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
+                                    <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
                                         role="alert">
                                         <i class="fa-solid fa-check-circle text-warning me-2"></i>
                                         <div>
                                             <p class=" m-0">Fresh Thai basil is essential for authentic flavor</p>
                                         </div>
                                     </div>
-                                    <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
+                                    <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning d-flex align-baseline"
                                         role="alert">
                                         <i class="fa-solid fa-check-circle text-warning me-2"></i>
                                         <div>
@@ -304,7 +301,7 @@ var cartona1 = `<div class="col-5  rounded-start-5 position-relative d-flex just
 
                 </div>`;
 var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.9</span>
@@ -315,7 +312,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -335,7 +332,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
 
     <div class="title">
         <div class="badges mb-3">
@@ -343,12 +340,12 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
             <span class="badge bg-body-blue text-blue">Italian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Creamy Chicken Alfredo</h3>
                 <p>Rich pasta tossed in a creamy parmesan sauce with juicy chicken</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -453,7 +450,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
 
                 <div class="row h-100 fa-gitter">
 
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -485,7 +482,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
                         </div>
                     </div>
 
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -524,17 +521,17 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
         <!-- CHEF TIPS -->
         <div class="tab-pane fade" id="alfredo-chef" role="tabpanel">
             <div class="d-flex flex-column gap-1 p-4 tabs">
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Add pasta water to thin the sauce if it becomes too thick.</p>
                 </div>
 
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Use freshly grated parmesan for the creamiest texture.</p>
                 </div>
 
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Do not boil the sauce — keep it gently simmering.</p>
                 </div>
@@ -551,7 +548,7 @@ var cartona2 = `<!-- MEAL 1 — CREAMY CHICKEN ALFREDO -->
 </div>
 `;
 var cartona3 = `<!-- MEAL 2 -->
-<div class="col-5  rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5  rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -562,7 +559,7 @@ var cartona3 = `<!-- MEAL 2 -->
         class="w-100  object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -582,7 +579,7 @@ var cartona3 = `<!-- MEAL 2 -->
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
 
         <div class="badges mb-3">
@@ -590,12 +587,12 @@ var cartona3 = `<!-- MEAL 2 -->
             <span class="badge bg-body-blue text-blue">Italian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Chicken Alfredo Pasta</h3>
                 <p>Creamy parmesan sauce tossed with tender chicken and fettuccine.</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -697,9 +694,9 @@ var cartona3 = `<!-- MEAL 2 -->
         <!-- NUTRITION -->
         <div class="tab-pane fade" id="alfredo-nutri">
             <div class="p-4 mt-4 tabs">
-                <div class="row">
+                <div class="row h-100 fa-gitter">
 
-                    <div class="col-6 d-flex flex-column gap-4">
+                    <div class="col-lg-6 gap-1 d-flex flex-column">
                         <div class="d-flex justify-content-between">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -721,7 +718,7 @@ var cartona3 = `<!-- MEAL 2 -->
                         </div>
                     </div>
 
-                    <div class="col-6 d-flex flex-column gap-4">
+                    <div class="col-lg-6 gap-1 d-flex flex-column">
                         <div class="d-flex justify-content-between">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -780,7 +777,7 @@ var cartona3 = `<!-- MEAL 2 -->
 </div>
 `;
 var cartona4 = `<!-- ========================= MEAL 3 ========================= -->
-<div class="col-5  rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5  rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -791,7 +788,7 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -811,19 +808,19 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Italian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Chicken Alfredo Pasta</h3>
                 <p>Creamy parmesan sauce tossed with tender chicken and fettuccine</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -921,7 +918,7 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
         <div class="tab-pane fade" id="m3n">
             <div class="p-4 mt-4 tabs">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -949,7 +946,7 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
                         </div>
                     </div>
 
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div>
@@ -982,17 +979,17 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
         <div class="tab-pane fade" id="m3t">
             <div class="d-flex flex-column gap-1 p-4 tabs">
 
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-start-warning">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-start-warning">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Use freshly grated parmesan for best texture.</p>
                 </div>
 
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-start-warning">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-start-warning">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Add pasta water if sauce gets too thick.</p>
                 </div>
 
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-start-warning">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-start-warning">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i>
                     <p class="m-0">Sear chicken on high heat for flavor.</p>
                 </div>
@@ -1010,7 +1007,7 @@ var cartona4 = `<!-- ========================= MEAL 3 ========================= 
 </div>
 `;
 var cartona5 = `<!-- MEAL 4 -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -1021,7 +1018,7 @@ var cartona5 = `<!-- MEAL 4 -->
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -1041,20 +1038,20 @@ var cartona5 = `<!-- MEAL 4 -->
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Italian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Creamy Pesto Chicken Pasta</h3>
                 <p>Penne pasta tossed in creamy basil pesto sauce with juicy chicken.</p>
             </div>
 
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -1141,8 +1138,8 @@ var cartona5 = `<!-- MEAL 4 -->
 
         <!-- NUTRITION -->
         <div class="tab-pane fade p-4 mt-4" id="meal4-nut">
-            <div class="row">
-                <div class="col-6">
+            <div class="row h-100 fa-gitter">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between ">
                     <div class="d-flex justify-content-between mb-3">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -1164,7 +1161,7 @@ var cartona5 = `<!-- MEAL 4 -->
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between ">
                     <div class="d-flex justify-content-between mb-3">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -1217,7 +1214,7 @@ var cartona5 = `<!-- MEAL 4 -->
 </div>
 `;
 var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -1228,7 +1225,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -1248,7 +1245,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
 
     <div class="title">
         <div class="badges mb-3">
@@ -1256,12 +1253,12 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
             <span class="badge bg-body-blue text-blue">Italian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Shrimp Scampi Pasta</h3>
                 <p>Buttery garlic shrimp tossed with lemon and linguine.</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -1363,7 +1360,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
             <div class="p-4 mt-4 tabs">
                 <div class="row h-100 fa-gitter">
 
-                    <div class="col-6 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -1395,7 +1392,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
                         </div>
                     </div>
 
-                    <div class="col-6 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between">
                             <div class="d-flex">
                                 <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -1461,7 +1458,7 @@ var cartona6 = `<!-- MEAL 5 – Shrimp Scampi Pasta -->
     </footer>
 </div>
 `;
-var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+var cartona7 = `<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -1472,7 +1469,7 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -1492,7 +1489,7 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
 
     <div class="title">
         <div class="badges mb-3">
@@ -1501,12 +1498,12 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
             <span class="badge bg-body-purple text-purple">Vegetarian</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Creamy Pesto Pasta</h3>
                 <p>Rich basil pesto blended with cream and parmesan for the perfect Italian comfort meal.</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -1598,8 +1595,8 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
 
         <!-- NUTRITION -->
         <div class="tab-pane fade p-4 mt-4" id="meal6-nut">
-            <div class="row h-100">
-                <div class="col-6 d-flex flex-column justify-content-between">
+            <div class="row h-100 fa-gitter">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -1631,7 +1628,7 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
                     </div>
                 </div>
 
-                <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -1695,7 +1692,7 @@ var cartona7 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </footer>
 </div>
 `
-var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+var cartona8 = `<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.9</span>
@@ -1706,7 +1703,7 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
         class="w-100 object-fit-cover rounded-start-5">
 
     <div class="position-absolute bottom-10 bg-white rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -1726,7 +1723,7 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
     </div>
 </div>
 
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
 
     <div class="title">
         <div class="badges mb-3">
@@ -1735,12 +1732,12 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
             <span class="badge bg-body-purple text-purple">Healthy</span>
         </div>
 
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Grilled Salmon with Lemon Butter</h3>
                 <p>Perfectly grilled salmon fillet with a zesty lemon butter sauce and fresh herbs.</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2">
                     <i class="fa-solid fa-bookmark text-orange"></i>
                 </button>
@@ -1831,8 +1828,8 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
 
         <!-- NUTRITION -->
         <div class="tab-pane fade p-4 mt-4" id="meal8-nut">
-            <div class="row h-100">
-                <div class="col-6 d-flex flex-column justify-content-between">
+            <div class="row h-100 fa-gitter">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-primar-orange rounded-3 me-2">
@@ -1864,7 +1861,7 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
                     </div>
                 </div>
 
-                <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex">
                             <div class="p-2 px-3 bg-body-blue rounded-3 me-2">
@@ -1929,7 +1926,7 @@ var cartona8 = `<div class="col-5 rounded-start-5 position-relative d-flex justi
 </div>
 `;
 var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.7</span>
@@ -1938,7 +1935,7 @@ var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
     <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800" alt="Beef Stir-Fry"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -1957,18 +1954,18 @@ var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
         </div>
     </div>
 </div>
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Asian</span>
         </div>
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Beef Stir-Fry</h3>
                 <p>Tender beef with colorful vegetables in a savory soy-ginger sauce.</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
             </div>
@@ -2013,7 +2010,7 @@ var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
         <div class="tab-pane fade" id="beef-nut">
             <div class="p-4 mt-4">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">420 Kcal</p></div>
                         <!-- Add more as in your original -->
                     </div>
@@ -2035,7 +2032,7 @@ var cartona9 = `<!-- MEAL 9 – Beef Stir-Fry -->
     </footer>
 </div>`;
 var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.8</span>
@@ -2044,7 +2041,7 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
     <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="Chicken Fajitas"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -2063,18 +2060,18 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
         </div>
     </div>
 </div>
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Mexican</span>
         </div>
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Chicken Fajitas</h3>
                 <p>Sizzling chicken strips with bell peppers and onions in warm tortillas</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
             </div>
@@ -2120,12 +2117,12 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
         <div class="tab-pane fade" id="fajita-nut">
             <div class="p-4 mt-4">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">480 Kcal</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">52g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">6g</p></div>
                     </div>
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">38g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">16g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">920mg</p></div>
@@ -2135,13 +2132,13 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
         </div>
         <div class="tab-pane fade" id="fajita-tips">
             <div class="d-flex flex-column gap-1 p-4">
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Slice everything thinly for even cooking</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Warm tortillas in a dry pan or microwave for softness</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Serve immediately while sizzling for best texture</p></div>
                 </div>
             </div>
@@ -2154,7 +2151,7 @@ var cartona10 = `<!-- MEAL 10 – Chicken Fajitas -->
     </footer>
 </div>`;
 var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.7</span>
@@ -2163,7 +2160,7 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
     <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="One-Pot Tomato Basil Pasta"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -2182,19 +2179,19 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
         </div>
     </div>
 </div>
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Italian</span>
             <span class="badge bg-body-purple text-purple">One-Pot</span>
         </div>
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">One-Pot Tomato Basil Pasta</h3>
                 <p>Pasta cooked directly in a flavorful tomato-basil sauce – minimal cleanup!</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
             </div>
@@ -2240,12 +2237,12 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
         <div class="tab-pane fade" id="onepot-nut">
             <div class="p-4 mt-4">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">420 Kcal</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">78g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">6g</p></div>
                     </div>
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">14g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">8g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">890mg</p></div>
@@ -2255,13 +2252,13 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
         </div>
         <div class="tab-pane fade" id="onepot-tips">
             <div class="d-flex flex-column gap-1 p-4">
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Stir frequently to prevent sticking</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Add chili flakes for a spicy kick</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Finish with extra fresh basil for aroma</p></div>
                 </div>
             </div>
@@ -2274,7 +2271,7 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
     </footer>
 </div>`;
 var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.9</span>
@@ -2283,7 +2280,7 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
     <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800" alt="Baked Salmon with Asparagus"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -2302,19 +2299,19 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
         </div>
     </div>
 </div>
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Seafood</span>
             <span class="badge bg-body-purple text-purple">Healthy</span>
         </div>
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Baked Salmon with Asparagus</h3>
                 <p>Oven-baked salmon fillets with lemon-garlic asparagus – rich in omega-3</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
             </div>
@@ -2359,12 +2356,12 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
         <div class="tab-pane fade" id="salmon-nut">
             <div class="p-4 mt-4">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">380 Kcal</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">8g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">4g</p></div>
                     </div>
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">36g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">22g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">320mg</p></div>
@@ -2374,13 +2371,13 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
         </div>
         <div class="tab-pane fade" id="salmon-tips">
             <div class="d-flex flex-column gap-1 p-4">
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Don't overcook – salmon should be slightly translucent in center</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Use parchment paper for easy cleanup</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Fresh dill and lemon zest elevate flavor</p></div>
                 </div>
             </div>
@@ -2393,7 +2390,7 @@ var cartona12 = `<!-- MEAL 12 – Baked Salmon with Asparagus -->
     </footer>
 </div>`;
 var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
-<div class="col-5 rounded-start-5 position-relative d-flex justify-content-center">
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
     <span class="badge bg-white rounded-pill position-absolute text-black p-3">
         <i class="fa-solid fa-star text-warning"></i>
         <span class="fw-bold">4.7</span>
@@ -2402,7 +2399,7 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
     <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800" alt="Quinoa Black Bean Bowl"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
-        <div class="d-flex flex-wrap p-3 px-5 justify-content-between">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
             <div>
                 <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
                 <p class="fw-lighter m-0">Prep Time</p>
@@ -2421,19 +2418,19 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
         </div>
     </div>
 </div>
-<div class="col-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
     <div class="title">
         <div class="badges mb-3">
             <span class="badge bg-body-green text-green">Easy</span>
             <span class="badge bg-body-blue text-blue">Healthy</span>
             <span class="badge bg-body-purple text-purple">Vegan</span>
         </div>
-        <div class="d-flex justify-content-between mb-3">
-            <div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
                 <h3 class="fw-bold h2">Quinoa & Black Bean Bowl</h3>
                 <p>Protein-packed quinoa with black beans, avocado, corn and lime dressing</p>
             </div>
-            <div>
+            <div class="order-0 align-self-lg-auto align-self-end">
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
                 <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
             </div>
@@ -2479,12 +2476,12 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
         <div class="tab-pane fade" id="quinoa-nut">
             <div class="p-4 mt-4">
                 <div class="row h-100 fa-gitter">
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">Calories</p></div><p class="fw-bold font-18">460 Kcal</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">Carbohydrates</p></div><p class="fw-bold font-18">68g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">Fiber</p></div><p class="fw-bold font-18">15g</p></div>
                     </div>
-                    <div class="col-6 h-75 d-flex flex-column justify-content-between">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">Protein</p></div><p class="fw-bold font-18">16g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">Fat</p></div><p class="fw-bold font-18">18g</p></div>
                         <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">Sodium</p></div><p class="fw-bold font-18">420mg</p></div>
@@ -2494,13 +2491,13 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
         </div>
         <div class="tab-pane fade" id="quinoa-tips">
             <div class="d-flex flex-column gap-1 p-4">
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Rinse quinoa well to remove bitterness</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Add diced tomato or red onion for extra freshness</p></div>
                 </div>
-                <div class="alert alert-warning rounded-4 bg-warning-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
                     <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">Dressing can be made ahead – keeps 3 days</p></div>
                 </div>
             </div>
@@ -2527,3 +2524,5 @@ function getRandom() {
     var index = Math.floor(Math.random() * arr.length);
     document.getElementById('content').innerHTML = arr[index]
 }
+
+getRandom();
