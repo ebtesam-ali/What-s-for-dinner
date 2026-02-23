@@ -2157,7 +2157,7 @@ var cartona11 = `<!-- MEAL 11 – One-Pot Tomato Basil Pasta -->
         <span class="fw-bold">4.7</span>
         <span class="fw-lighter">(298 reviews)</span>
     </span>
-    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="One-Pot Tomato Basil Pasta"
+    <img src="https://www.simplyleb.com/wp-content/uploads/Grape-Leaves-13.jpg" alt="One-Pot Tomato Basil Pasta"
         class="w-100 object-fit-cover rounded-start-5">
     <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
         <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
