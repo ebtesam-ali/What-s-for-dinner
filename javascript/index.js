@@ -2510,11 +2510,136 @@ var cartona13 = `<!-- MEAL 13 – Quinoa & Black Bean Bowl -->
     </footer>
 </div>`;
 
+var cartona14 = `
+<!-- MEAL 14 – محشي (Stuffed Vegetables - Egyptian Style) -->
+<div class="col-lg-5 rounded-start-5 position-relative d-flex justify-content-center">
+    <span class="badge bg-white rounded-pill position-absolute text-black p-3">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="fw-bold">4.9</span>
+        <span class="fw-lighter">(528 reviews)</span>
+    </span>
+    <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800" alt="محشي - Stuffed Vegetables"
+        class="w-100 object-fit-cover rounded-start-5">
+    <div class="position-absolute bottom-10 bg-white text rounded-4 text-center w-75">
+        <div class="d-flex flex-wrap p-3 px-lg-5 justify-content-around">
+            <div>
+                <i class="fa-solid fa-clock text-orange fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Prep Time</p>
+                <p class="fw-bold m-0">30 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-burner text-danger fa-x mn-1"></i><br>
+                <p class="fw-lighter m-0">Cook Time</p>
+                <p class="fw-bold m-0">60 min</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users text-info fa-x mb-1"></i><br>
+                <p class="fw-lighter m-0">Servings</p>
+                <p class="fw-bold m-0">6 people</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-7 overflow-y-auto scroll vh-100 rounded-end-5 p-4">
+    <div class="title">
+        <div class="badges mb-3">
+            <span class="badge bg-body-green text-green">Intermediate</span>
+            <span class="badge bg-body-blue text-blue">Egyptian</span>
+            <span class="badge bg-body-purple text-purple">Traditional</span>
+        </div>
+        <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+            <div class="order-lg-0 order-1">
+                <h3 class="fw-bold h2">محشي (Mahshi)</h3>
+                <p>كوسة وفلفل وباذنجان محشوة بالأرز واللحم المفروم والبهارات العربية</p>
+            </div>
+            <div class="order-0 align-self-lg-auto align-self-end">
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-bookmark text-orange"></i></button>
+                <button class="bg-primar-orange btn p-2 rounded-2"><i class="fa-solid fa-share-nodes text-orange"></i></button>
+            </div>
+        </div>
+        <div class="alert alert-info bg-info-subtle mb-4 d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-info" role="alert">
+            <i class="fa-solid fa-circle-info text-info me-2"></i>
+            <div>
+                <p class="m-0 h5">طبق عائلي كلاسيكي</p>
+                <p class="text-info m-0">يحتاج وقت تحضير وطبخ لكن النتيجة تستحق!</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline d-flex justify-content-around text-secondary border-bottom pb-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#mahshi-ing"><i class="fa-solid fa-list-check"></i> المكونات</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#mahshi-inst"><i class="fa-solid fa-book-open"></i> الطريقة</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#mahshi-nut"><i class="fa-solid fa-chart-pie"></i> القيم الغذائية</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#mahshi-tips"><i class="fa-solid fa-lightbulb"></i> نصائح الشيف</a></li>
+    </ul>
+    <div class="tab-content tabs">
+        <div class="tab-pane fade show active" id="mahshi-ing">
+            <div class="bg-hero p-4 rounded-5 mt-4">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">1</span>1 كجم كوسة صغيرة (محفورة)</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">2</span>500 جم فلفل أخضر أو باذنجان صغير</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">3</span>2 كوب أرز مصري</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">4</span>300 جم لحم مفروم</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">5</span>1 بصلة مفرومة ناعم</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">6</span>3 فصوص ثوم مفروم</span>
+                    <span class="mb-3"><span class="bg-orange px-2 rounded-circle me-1 text-white">7</span>ملعقة كبيرة صلصة طماطم</span>
+                    <span><span class="bg-orange px-2 rounded-circle me-1 text-white">8</span>بهارات (ملح، فلفل، كمون، كزبرة، نعناع مجفف، بهارات محشي)</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="mahshi-inst">
+            <div class="p-4 rounded-5 mt-4 font-18">
+                <div class="d-flex flex-column flex-wrap">
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">1</span>اخلطي الأرز مع اللحم المفروم، البصل، الثوم، الصلصة، البهارات والنعناع.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">2</span>احشي الخضروات بالخليط حتى ¾ من السعة (يتمدد الأرز).</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">3</span>رصي المحشي في القدر بشكل دائري أو عمودي.</span>
+                    <span class="mb-4 d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">4</span>غطي الخضروات بالماء المغلي + ملعقة صلصة + ملح.</span>
+                    <span class="d-flex"><span class="bg-orange px-3 py-2 rounded-3 me-2 text-white fw-bold">5</span>اطهي على نار هادئة 60–75 دقيقة حتى ينضج الأرز. قدمي ساخناً مع لبن زبادي.</span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="mahshi-nut">
+            <div class="p-4 mt-4">
+                <div class="row h-100 fa-gitter">
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-primar-orange rounded-3 me-2"><i class="fa-solid fa-fire text-orange"></i></div><p class="font-18">السعرات</p></div><p class="fw-bold font-18">420 سعرة</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-yellow rounded-3 me-2"><i class="fa-solid fa-wheat-awn text-warning"></i></div><p class="font-18">الكربوهيدرات</p></div><p class="fw-bold font-18">58g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-green rounded-3 me-2"><i class="fa-solid fa-seedling text-success"></i></div><p class="font-18">الألياف</p></div><p class="fw-bold font-18">7g</p></div>
+                    </div>
+                    <div class="col-lg-6 gap-1 h-75 d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-body-blue rounded-3 me-2"><i class="fa-solid fa-dumbbell text-blue"></i></div><p class="font-18">البروتين</p></div><p class="fw-bold font-18">18g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-red rounded-3 me-2"><i class="fa-solid fa-droplet text-danger"></i></div><p class="font-18">الدهون</p></div><p class="fw-bold font-18">14g</p></div>
+                        <div class="d-flex justify-content-between align-items-baseline"><div class="d-flex"><div class="p-2 px-3 bg-pink rounded-3 me-2"><i class="fa-solid fa-cube text-pink"></i></div><p class="font-18">الصوديوم</p></div><p class="fw-bold font-18">780mg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="mahshi-tips">
+            <div class="d-flex flex-column gap-1 p-4">
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">لا تملئي الخضروات كاملة حتى لا ينفجر الأرز أثناء الطهي</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">أضيفي عصير طماطم طازج فوق المحشي لنكهة أغنى</p></div>
+                </div>
+                <div class="alert alert-warning rounded-4 bg-warning-subtle d-flex align-items-center border-top-0 border-bottom-0 border-end-0 border-start-warning" role="alert">
+                    <i class="fa-solid fa-check-circle text-warning me-2"></i><div><p class="m-0">اتركيه يرتاح 10 دقائق بعد الطهي ليتماسك</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top mt-5 pt-4">
+        <button class="bg-gradiant btn text-white px-3 fw-bold" type="button" onclick="getRandom()">
+            <i class="fa-solid fa-rotate"></i> Try Another Recipe
+        </button>
+    </footer>
+</div>
+`;
+
 
 var arr = [
     cartona1, cartona2, cartona3, cartona4, cartona5,
     cartona6, cartona7, cartona8, cartona9, cartona10,
-    cartona11, cartona12, cartona13
+    cartona11, cartona12, cartona13, cartona14
 ];
 
 
